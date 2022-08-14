@@ -1,0 +1,446 @@
+@import "normalize1.scss"
+@import "reset1.scss"
+*
+    box-sizing: border-box
+
+@font-face 
+    font-family: "MontserratT"
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    font-weight: bold
+    font-style: normal
+
+@font-face 
+    font-family: "MontserratT"
+    src: url('../fonts/Montserrat-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+
+html
+    font-family: "MontserratT"
+    font-weight: regular
+
+$color-blue: #5290EA
+$color-orange: #F28B64
+
+.container
+    max-width: 1140px
+    margin: 0 auto
+    position: relative
+    
+.main-section
+    position: relative
+    min-height: 800px
+    background-color: #F0F0F0
+    padding-top: 16px
+    overflow: hidden
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 69px
+        align-items: center
+    &__logo
+        width: 134px
+    &__content-container
+        position: relative
+        display: flex
+        flex-direction: row
+    &__first-elipse
+        position: absolute
+        top: 129px
+        right: 67px
+        z-index: 1
+    &__second-elipse
+        position: absolute
+        top: 650px
+        right: -120px
+        transform: rotate(45deg)
+
+
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+        &-item
+            margin-right: 64px
+            font-size: 18px
+            font-weight: bold
+            &:last-child
+                margin-right: 0px
+        a
+            text-decoration: none
+            color: black
+
+.left-wrapper
+    position: relative
+    &__img
+        position: relative
+        z-index: 4
+    &__rectangle-blue
+        position: absolute
+        width: 565.95px
+        height: 220px
+        left: -50px
+        top: 150px
+        background-color: $color-blue
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 100px
+        transform: rotate(-64deg)
+        z-index: 2
+    &__rectangle-orange
+        position: absolute
+        width: 618.43px
+        height: 220px
+        left: -30px
+        top: 160px
+        background: $color-orange
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 100px
+        transform: rotate(-50.81deg)
+        z-index: 3
+    &__rectangle-grey
+        position: absolute
+        width: 608.97px
+        height: 220px
+        left: 10px
+        top: 190px
+        background: #E2E2E2
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 100px
+        transform: rotate(-36.15deg)
+        z-index: 1
+
+.right-wrapper
+    width: 372px
+    position: absolute
+    top: 150px
+    right: 76px
+    z-index: 2
+    &__icons-box
+        margin-bottom: 1px
+        padding-left: 10px
+    &__title
+        margin-bottom: 5px
+    &__text
+        font-size: 16px
+        margin-bottom: 20px
+.icons
+    display: flex
+    flex-direction: row
+    &__item
+        margin-right: 17px
+        &:last-child
+            margin-right: 0px
+                
+.title
+    font-size: 72px
+    position: relative
+    font-weight: bold
+    &__hr
+        width: 65px
+        position: absolute
+        bottom: 0px
+        margin: 0
+        border: none
+        border-top: 1px solid black
+
+.buttons
+    display: inline-flex
+    &__main-btn
+        margin-right: 32px
+        width: 200px
+        height: 60px
+        background: $color-orange
+        border: none
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 100px
+        font-size: 18px
+        font-weight: bold
+        color: white
+    &__icon-btn
+        display: inline-flex
+        align-items: center
+        img
+            margin-right: 12px
+    &__text
+        font-size: 16px
+        
+            
+.elipse
+    width: 194px
+    height: 194px
+    background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%)
+    border-radius: 100px
+    display: flex
+    justify-content: center
+    align-items: center
+    z-index: 1
+    &_big
+        width: 282px
+        height: 282px
+        border-radius: 150px
+    &__subtract
+        width: 129.33px
+        height: 129.33px
+        background: #F0F0F0
+        border-radius: 100px
+        &_big
+            width: 188px
+            height: 188px
+            border-radius: 150px
+
+.second-section
+    position: relative
+    min-height: 700px
+    background-color: #FFFFFF
+    overflow: hidden
+    &__text
+        margin-bottom: 40px
+    &__text-title
+        padding-bottom: 7px
+    &__first-elipse
+        position: absolute
+        bottom: 10
+        top: 325px
+        right: 1029px
+        z-index: 0
+    &__second-elipse
+        position: absolute
+        z-index: 0
+        top: 1px
+        right: -75px
+    &__information
+        display: flex
+        justify-content: space-evenly   
+        
+.guitar
+    display: inline-flex
+    &-block
+        display: flex
+        position: relative
+        width: 360px
+        height: 360px
+        padding-top: 25px
+        padding-right: 163px
+        text-align: center
+        margin-right: 40px
+        margin-bottom: 25px
+        z-index: 1
+        &:last-child
+            margin-right: 0px
+        img
+           margin-right: 25px 
+        &__text
+            width: 161px
+            height: 88px
+            position: absolute
+            transform: rotate(90deg)
+            font-size: 36px
+            top: 150px
+            right: 20px
+            font-weight: bold
+        &__text-second
+            width: 277px
+            height: 88px
+            position: absolute
+            transform: rotate(90deg)
+            font-size: 36px
+            top: 150px
+            right: -35px
+            font-weight: bold
+        &_color
+            background-color: #E2E2E2
+        &_color-second
+            background-color: $color-orange
+        &_color-third
+            background-color: $color-blue
+.information
+    &__icon
+        display: inline-flex
+        align-items: center
+        &-img
+            margin-right: 20px
+        &-text
+            font-size: 18px
+            span
+                font-size: 48px
+                font-weight: bold
+
+.third-section
+    position: relative
+    min-height: 640px
+    background-color: #F0F0F0
+    overflow: hidden
+    z-index: 0
+    &__content
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
+        padding-left: 167px
+        padding-top: 46px
+    &__first-elipse
+        position: absolute
+        top: 140px
+        left: 110px
+        z-index: -1
+    &__figure
+        position: absolute
+        z-index: -1
+        top: 249px
+        left: 15px
+    &__second-elipse
+        position: absolute
+        width: 282px
+        height: 282px
+        top: -143px
+        left: 1730px
+        background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%)
+        transform: rotate(-48.2deg)
+
+.right-side
+    max-width: 480px
+    position: relative
+    &__title
+        font-size: 72px
+        margin-bottom: 20px
+    &__text
+        margin-bottom: 30px
+        font-size: 18px
+
+.title__hr_top
+    bottom: 75px
+        
+.footer
+    background-color: #FFFFFF
+    
+    &__content
+        min-height: 272px
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        &-img
+            position: absolute
+            left: -250px
+            bottom: 0px
+    &__right-title
+        margin-bottom: 20px
+        
+@media (max-width: 1199px)
+    .container
+        width: 960px
+    .main-section
+        min-height: 700px
+    .main-section__first-elipse
+        right: -9px
+        top: 80px
+    .main-section__second-elipse
+        top: 550px
+    .left-wrapper
+        &__img
+            width: 750px    
+        &__rectangle-blue
+            width: 566.95px
+            height: 172px
+            left: -76px
+            top: 149px
+        &__rectangle-orange
+            width: 601.95px
+            height: 180px
+            left: -50px
+            top: 165px
+        &__rectangle-grey
+            width: 555.97px
+            height: 182px
+            left: 11px
+            top: 185px
+    .right-wrapper
+        right: 2px
+        top: 90px
+    .right-wrapper__text
+        margin-bottom: 30px
+    .second-section
+        min-height: 565px
+        z-index: -2
+    .guitar-block
+        width: 292px
+        height: 300px
+    .guitar-block__text
+        font-size: 30px
+        top: 113px
+        right: 4px
+    .guitar-block__text-second
+        font-size: 30px
+        top: 114px
+        right: -56px 
+    .second-section__first-elipse
+        top: 276px
+        right: 844px
+        z-index: -1
+    .third-section__content
+        padding-left: 45px
+    .right-side
+        max-width: 440px
+        
+@media (max-width: 991px)
+    .container
+        width: 720px
+    .main-section
+        min-height: 550px
+    .left-wrapper
+        &__img
+            width: 565px
+        &__rectangle-blue
+            width: 393.95000000000005px
+            height: 127px
+            left: -50px
+            top: 95px
+        &__rectangle-orange
+            width: 412.95000000000005px
+            height: 128px
+            left: -30px
+            top: 104px
+        &__rectangle-grey
+            width: 399.97px
+            height: 132px
+            left: -1px
+            top: 128px
+    .right-wrapper 
+        right: -88px
+        top: 60px
+    .right-wrapper__text
+        font-size: 14px
+        margin-bottom: 20px
+        max-width: 300px
+    .title
+        font-size: 50px
+    .buttons__main-btn
+        width: 168px
+        height: 40px
+        font-size: 14px
+        margin-right: 7px
+    .buttons__tex
+        font-size: 14px
+    .buttons__icon-btn img
+        width: 40px
+        margin-right: 5px
+    .main-section__first-elipse
+        right: -1px
+        top: 65px
+    .main-section__second-elipse
+        right: -70px
+        top: 477px
+    .elipse 
+        width: 130px
+        height: 130px
+    .elipse__subtract 
+        width: 82px
+        height: 82px
+
+@media (max-width: 767px)
+    .container
+        width: 540px
+
+@media (max-width: 575px)
+    .container
+        width: 100%
