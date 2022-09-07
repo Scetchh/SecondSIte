@@ -1077,7 +1077,7 @@ html {
   }
   /* line 415, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
   .title {
-    font-size: 50px;
+    font-size: 40px;
   }
   /* line 417, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
   .buttons__main-btn {
@@ -1115,19 +1115,559 @@ html {
     width: 82px;
     height: 82px;
   }
+  /* line 439, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 400px;
+  }
+  /* line 441, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__text {
+    margin-bottom: 15px;
+  }
+  /* line 443, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar-block {
+    width: 212px;
+    height: 227px;
+  }
+  /* line 446, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar-block__text {
+    top: 69px;
+    right: -14px;
+    font-size: 25px;
+  }
+  /* line 450, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar-block__text-second {
+    font-size: 25px;
+    top: 72px;
+    right: -70px;
+  }
+  /* line 454, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .information__icon-img {
+    margin-right: 7px;
+    width: 60px;
+  }
+  /* line 457, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .information__icon-text span {
+    font-size: 33px;
+  }
+  /* line 459, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .information__icon-text {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  /* line 462, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: 198px;
+    right: 647px;
+    z-index: -1;
+  }
+  /* line 466, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__information {
+    justify-content: center;
+  }
+  /* line 468, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 450px;
+  }
+  /* line 470, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section__content {
+    padding-top: 20px;
+  }
+  /* line 472, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section .right-side__text {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 22px;
+  }
+  /* line 476, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .title__hr_top {
+    bottom: 40px;
+  }
+  /* line 478, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section__first-elipse {
+    top: 158px;
+    left: 8px;
+    width: 160px;
+    height: 160px;
+  }
+  /* line 483, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section__subtract {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 486, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section__figure {
+    width: 120px;
+    left: -16px;
+  }
 }
 
 @media (max-width: 767px) {
-  /* line 441, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  /* line 493, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
   .container {
     width: 540px;
+  }
+  /* line 495, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 388px;
+  }
+  /* line 497, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .main-section__logo {
+    width: 86px;
+  }
+  /* line 499, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 320px;
+  }
+  /* line 502, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .left-wrapper__img {
+    width: 375px;
+  }
+  /* line 504, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 225px;
+    height: 87px;
+    left: -10px;
+    top: 45px;
+  }
+  /* line 509, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 238px;
+    height: 86px;
+    left: -1px;
+    top: 52px;
+  }
+  /* line 514, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 238px;
+    height: 86px;
+    left: 14px;
+    top: 65px;
+  }
+  /* line 519, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-wrapper {
+    position: absolute;
+    padding-left: 80px;
+    right: -101px;
+    top: -9px;
+  }
+  /* line 524, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-wrapper__text {
+    max-width: 260px;
+    margin-bottom: 10px;
+  }
+  /* line 527, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-wrapper__title {
+    margin-bottom: 10px;
+  }
+  /* line 529, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-wrapper__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 532, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-wrapper__icon-btn {
+    padding-top: 12px;
+  }
+  /* line 534, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-wrapper__icons-box {
+    padding-left: 0px;
+    margin-bottom: 7px;
+  }
+  /* line 537, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .icons__item {
+    margin-right: 8px;
+  }
+  /* line 539, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .title {
+    font-size: 37px;
+  }
+  /* line 541, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .buttons__text {
+    font-size: 14px;
+  }
+  /* line 543, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 340px;
+  }
+  /* line 545, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 154px;
+    right: 485px;
+  }
+  /* line 548, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: 18px;
+    right: -57px;
+  }
+  /* line 551, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar-block {
+    margin-right: 15px;
+    width: 169px;
+    height: 190px;
+  }
+  /* line 555, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar-block__text {
+    top: 53px;
+    right: -18px;
+    font-size: 20px;
+  }
+  /* line 559, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar-block__text-second {
+    font-size: 20px;
+    top: 54px;
+    right: -78px;
+  }
+  /* line 563, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .information__icon-img {
+    margin-right: 3px;
+    width: 45px;
+  }
+  /* line 566, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .information__icon-text {
+    font-size: 13px;
+    margin-right: 5px;
+  }
+  /* line 569, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .information__icon-text span {
+    font-size: 24px;
+  }
+  /* line 571, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 425px;
+  }
+  /* line 573, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section__content {
+    padding-left: 30px;
+  }
+  /* line 575, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section .right-side__text {
+    line-height: 1;
+  }
+  /* line 578, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .left-side__title {
+    margin-right: 15px;
+  }
+  /* line 580, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .footer__content-img {
+    position: absolute;
+    left: -126px;
+    bottom: 0px;
+    width: 378px;
+  }
+  /* line 585, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .footer__content {
+    position: relative;
+    min-height: 165px;
+  }
+  /* line 588, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .footer__right {
+    position: absolute;
+    top: 14px;
+  }
+  /* line 593, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 40%;
+    background-color: #5290EA;
+    z-index: 5;
+    transition: 0.6s all;
+  }
+  /* line 602, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 607, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0px;
+    font-size: 20px;
+  }
+  /* line 610, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    z-index: 6;
+  }
+  /* line 617, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger span {
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 624, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0px;
+  }
+  /* line 627, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 629, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 631, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 633, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 635, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0px;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 445, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  /* line 643, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
   .container {
     width: 100%;
+  }
+  /* line 646, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .main-section__logo {
+    width: 70px;
+  }
+  /* line 648, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .main-section__content-container {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 547px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* line 655, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-wrapper {
+    position: relative;
+    right: -107px;
+    top: -9px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+  }
+  /* line 661, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .left-wrapper {
+    position: relative;
+    width: 306px;
+  }
+  /* line 664, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .left-wrapper__img {
+    width: 360px;
+  }
+  /* line 666, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__guitar-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 671, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 674, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar-block {
+    width: 230px;
+    height: 215px;
+    margin-right: 0px;
+  }
+  /* line 678, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar-block img {
+    width: 150px;
+  }
+  /* line 680, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar-block__text {
+    top: 57px;
+  }
+  /* line 682, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .guitar-block__text-second {
+    top: 64px;
+    right: -77px;
+  }
+  /* line 685, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section {
+    max-height: 880px;
+  }
+  /* line 687, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 471px;
+    right: 253px;
+  }
+  /* line 690, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__subtract {
+    background: #fff;
+  }
+  /* line 692, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: -754px;
+    right: -150px;
+    position: relative;
+  }
+  /* line 696, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: -446px;
+    right: 157px;
+    position: relative;
+  }
+  /* line 700, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .second-section__information {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    top: -268px;
+  }
+  /* line 706, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .information__icon_four {
+    position: relative;
+    right: -36px;
+  }
+  /* line 709, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-side {
+    max-width: 560px;
+  }
+  /* line 711, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .left-side__title {
+    display: none;
+  }
+  /* line 713, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section__content {
+    padding-left: 10px;
+  }
+  /* line 715, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-side__buttons {
+    margin: 0 auto;
+  }
+  /* line 717, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .buttons {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+  }
+  /* line 721, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section__first-elipse {
+    top: 115px;
+    opacity: 0.55;
+  }
+  /* line 724, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section__figure {
+    top: 201px;
+    opacity: 0.55;
+  }
+  /* line 727, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-side__title {
+    width: 210px;
+    margin: 0 auto;
+  }
+  /* line 730, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 325px;
+  }
+  /* line 732, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .third-section .right-side__text {
+    margin-bottom: 10px;
+  }
+  /* line 734, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .right-side__buttons {
+    margin: 0px auto 10px auto;
+  }
+  /* line 736, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .footer__right-title {
+    margin-bottom: 10px;
+  }
+  /* line 738, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .footer__right {
+    position: relative;
+    width: 286px;
+    margin: 0 auto;
+  }
+  /* line 742, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .footer__right-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  /* line 746, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .footer__content-img {
+    opacity: 0.65;
+  }
+  /* line 751, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 40%;
+    background-color: #5290EA;
+    z-index: 5;
+    transition: 0.6s all;
+  }
+  /* line 760, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 765, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0px;
+    font-size: 20px;
+  }
+  /* line 768, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    z-index: 6;
+  }
+  /* line 775, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger span {
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 782, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0px;
+  }
+  /* line 785, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 787, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 789, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 791, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 793, C:/Users/risco/Desktop/Project-2/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0px;
   }
 }
 
